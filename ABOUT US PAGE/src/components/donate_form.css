@@ -1,0 +1,287 @@
+/*  */
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: none;
+  transition: all 300ms ease 0s;
+  -moz-transition: all 300ms ease 0s;
+  -webkit-transition: all 300ms ease 0s;
+  -o-transition: all 300ms ease 0s;
+  -ms-transition: all 300ms ease 0s;
+}
+
+/* input and text area style */
+input,
+select,
+textarea {
+  outline: none;
+  appearance: unset !important;
+  -moz-appearance: unset !important;
+  -webkit-appearance: unset !important;
+  -o-appearance: unset !important;
+  -ms-appearance: unset !important;
+}
+
+/* style the outer part of the spinner button of the input elements  */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none !important;
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
+  -o-appearance: none !important;
+  -ms-appearance: none !important;
+  margin: 0;
+}
+/* input style */
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -o-box-shadow: none !important;
+  -ms-box-shadow: none !important;
+}
+
+/* paragraph style */
+p {
+  margin-bottom: 0px;
+}
+
+/* header 2 style */
+h2 {
+  line-height: 2.5;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #222;
+  font-family: Poppins;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* main division style */
+.main {
+  padding: 15px 0;
+  position: relative;
+}
+
+/* header 1 style */
+h1 {
+  position: absolute;
+  font-weight: 700;
+  font-size: 174px;
+  color: #fff;
+  opacity: 0.5;
+  right: 105px;
+  top: 45px;
+  top: -149px;
+  z-index: 9;
+}
+
+/* container 2 division style */
+.container-2 {
+  background: #fff;
+  margin: 0 auto;
+  box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
+  -o-box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
+  -ms-box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+}
+
+/* sign up content division style */
+.sign-up-content {
+  padding: 40px 10px 32px 10px;
+  position: relative;
+  z-index: 99;
+}
+
+/* input box style */
+
+.input1 {
+  border: solid 2px #ebebeb;
+  box-sizing: border-box;
+  width: 100%;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: Poppins;
+  padding: 16px 30px 16px 140px;
+}
+/* form-textbox division style  */
+
+.form-textbox1 {
+  position: relative;
+  margin: 1%;
+}
+.form-textbox1 label {
+  position: absolute;
+  left: 28px;
+  top: 50%;
+  transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  font-weight: 600;
+  color: #888;
+  font-size: 14px;
+}
+
+.input2 {
+  border: solid 2px #ebebeb;
+  box-sizing: border-box;
+  width: 48%;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: Poppins;
+  padding: 16px 30px 16px 160px !important;
+}
+/* form-textbox division style  */
+
+.form-textbox2 {
+  position: relative;
+  margin: 1%;
+}
+.form-textbox2 label {
+  position: absolute;
+  left: 28px !important;
+  top: 100% !important;
+  transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  font-weight: 600;
+  color: #888;
+  font-size: 14px;
+}
+
+/* name label style  */
+#name {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+/* password label style */
+#pass {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* email address label style */
+#email {
+  border: none;
+  border-left: solid 2px #ebebeb;
+  border-right: solid 2px #ebebeb;
+}
+/* input box style  */
+input[type="checkbox"]:not(old) {
+  width: 2em;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  display: none;
+}
+/* input style */
+input[type="checkbox"]:not(old) + label {
+  display: inline-block;
+  margin-top: 27px;
+  margin-bottom: 45px;
+}
+/* input style */
+input[type="checkbox"]:not(old) + label > span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  border: 2px solid #ebebeb;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  background: white;
+  /*  progressive transition between two or more colors */
+  background-image: -moz-linear-gradient(white, white);
+  background-image: -ms-linear-gradient(white, white);
+  background-image: -o-linear-gradient(white, white);
+  background-image: -webkit-linear-gradient(white, white);
+  background-image: linear-gradient(white, white);
+  vertical-align: bottom;
+}
+/* input style */
+input[type="checkbox"]:not(old):checked + label > span {
+  /*  progressive transition between two or more colors */
+  background-image: -moz-linear-gradient(white, white);
+  background-image: -ms-linear-gradient(white, white);
+  background-image: -o-linear-gradient(white, white);
+  background-image: -webkit-linear-gradient(white, white);
+  background-image: linear-gradient(white, white);
+}
+/* input style */
+input[type="checkbox"]:not(old):checked + label > span:before {
+  content: "\f26b";
+  display: block;
+  color: #222;
+  font-size: 11px;
+  line-height: 1.1;
+  text-align: center;
+  font-family: "Material-Design-Iconic-Font";
+  font-weight: bold;
+}
+
+/* edit, register, update, login buttons style */
+.submit {
+  background: #1da0f2;
+  color: #fff;
+  border: none;
+  padding: 15px 20px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: Poppins;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+}
+.submit:hover {
+  background: #0c85d0;
+}
+
+/* input  autofilled by the browser */
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px white inset;
+}
+/* responsive scontainer style */
+@media screen and (max-width: 768px) {
+  .container {
+    width: calc(100% - 30px);
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .sign-up-content {
+    padding: 40px 20px 32px 20px;
+  }
+
+  .form-radio input + label {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .form-textbox label {
+    left: 15px;
+  }
+  input {
+    padding: 16px 30px 16px 100px;
+  }
+}

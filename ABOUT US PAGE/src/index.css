@@ -1,0 +1,206 @@
+/* body style */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* background color  */
+
+.bg-white{
+  background-color: white !important;
+}
+
+/* black background color */
+.bg-black{
+  background-color: rgb(28, 28, 30) !important;
+}
+/* text style  */
+.text-white{
+   color: white !important;
+   line-height: 1.5rem;
+   font-weight: 400;
+}
+
+/* footer text style */
+.site-footer h6{
+  text-align: left;
+  text-transform: none !important;
+}
+
+/* item list alignment */
+ul>li {
+  text-align: left;
+  
+}
+/* font family for the footer */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* navigation link style when hover */
+.nav-link:hover {
+  color:green !important;
+  
+}
+
+
+/* registration box style */
+.register-box{
+  border: 1px solid black;
+}
+/* border size */
+.border-b{
+  border-bottom: 1px solid;
+  border-bottom-color:black ;
+}
+
+/* border style */
+.round-border {
+  border: 1px solid rgb(128, 124, 124);
+  border-radius: 20px;
+}
+/* border top */
+.border-t{
+  border-top: 1px solid;
+  border-top-color:black ;
+}
+/* logo image style */
+.logo-img {
+  max-width: 100% !important;
+  max-height: 70px;
+}
+
+
+/* background color  */
+.bg-light-green{
+  background-color: #7fb75d;
+}
+/* list style  */
+ul> li> a {
+  color: black !important;
+  font-weight: 600;
+  font-size: 1.12rem;
+}
+/* log out button style */
+.logout-btn{
+  margin-left: 90%;
+
+
+}
+
+/* style for footer */
+
+.site-footer
+{
+  background-color:#0d71c9;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:black;
+}
+
+/* footer header 6 style */
+.site-footer h6
+{
+  color:black;
+  font-size:20px;
+  font-weight: 600;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+
+/* footer link style */
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+/* footer list item style */
+.footer-links li
+{
+  display:block
+}
+
+/* footer links style for hover */
+.footer-links a:hover
+{
+  color:#e9e3e3;
+}
+/* footer inline item display */
+.footer-links.inline li
+{
+  display:inline-block
+}
+
+/* copy right text style */
+.copyright-text
+{
+  margin:0
+}
+/* About Us Page */
+.about-section
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5vw 0;
+}
+.about-section h3
+{
+  font-size: 2rem;
+  color: #7fb75d;
+}
+.about-section p
+{
+  font-size: 1rem;
+  width: 92.5%;
+  text-align: justify;
+}
+.about-section span div 
+{
+  width: 70%;
+}
+.about-section span 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5vw;
+}
+.about-section span img 
+{
+  width: 30%;
+}
+.about-section span + img 
+{
+  width: 90%;
+  margin-top: 2.5vw;
+}
+/* responsive design style */
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+/* responsive design style */
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer 
+  {
+    text-align:center
+  }
+}
+
+
+
